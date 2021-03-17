@@ -1,0 +1,108 @@
+#shop_home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 538px;
+    }
+  
+  
+    #shop_home::before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background: url('../img/shop_hero2.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    height: 114%;
+    width: 138.3%;
+    z-index: -1;
+    opacity: 1;
+    overflow-x: hidden;
+    }
+  
+  
+    .shop_home::after {
+    background-color: #563d7c; content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    }
+  
+  
+    #shop_home h1{
+    text-align: left;
+    }
+  
+  
+    #shop_home h2{
+    color: #fff;
+    font-family: muli, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform:uppercase;
+    }
+
+#whatwecanoffer {
+    padding: 0px;
+    justify-content: left;
+    text-align: left;
+    background-color: #151515;
+    height: 100%;
+    width: 100%;
+}
+
+.tab{
+    display: grid;
+    padding-bottom: 513px;
+    padding-top: 35px;
+    padding-left: 38px;
+}
+
+.tablinks{
+    padding: 9px 33px;
+    margin-bottom: 13px;
+    margin-right: 58px;
+    padding: 9px 33px;
+    margin-bottom: 13px;
+    margin-right: 58px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-family: muli, sans-serif;
+    font-size: 21px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.tablinks:hover{
+    color: #f36100;
+}
+
+.shop_nav{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    display: block;
+    padding: 9px 23px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+}
+
+.shop_nav:hover{
+    color: #f36100;
+    text-decoration: underline;
+}

@@ -1,0 +1,137 @@
+#shedule_home{
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+  height: 538px;
+  }
+
+
+  #shedule_home::before{
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background: url('../img/shedule_hero.jpg') no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  height: 114%;
+  width: 138.3%;
+  z-index: -1;
+  opacity: 1;
+  overflow-x: hidden;
+  }
+
+
+  .shedule_home::after {
+  background-color: #563d7c; content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.4;
+  }
+
+
+  #shedule_home h1{
+  text-align: left;
+  }
+
+
+  #shedule_home h2{
+  color: #fff;
+  font-family: muli, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform:uppercase;
+  }
+
+table,
+td,
+th {
+    color: white;
+  
+  padding: 52px 70px;
+}
+
+td {
+    text-align: center;
+  border: none;
+  padding: 25px 12px;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.shedule{
+    background-color: #151515;
+    padding: 68px 0;
+}
+
+.workout{
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
+
+.time{
+    font-family: "Muli", sans-serif;
+    font-size: 12px;
+    color: #151515;
+    cursor: none;
+    
+}
+.week{
+    font-family: "Muli", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background: #f36100;
+    border-right: 1px solid #363636;
+    
+    font-weight: 400;
+    background-color: #f36100;
+}
+.odd{
+  background-color: #000000;
+}
+.even{
+  background-color: #000000;
+}
+.even:hover{
+  background-color: #f36100;
+  cursor: pointer;
+}
+.odd:hover{
+  background-color: #f36100;
+  cursor: pointer;
+}
+
+.Trainer_name{
+  font-family: "Muli", sans-serif;
+  display: block;
+  font-size: 12px;
+  color: #a9a9a9;
+}
+
+.Table_tital{
+  color: #f36100;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Muli", sans-serif;
+}
+.timetable{
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 8px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 44px;
+}

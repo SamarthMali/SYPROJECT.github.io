@@ -1,0 +1,51 @@
+#contact_home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 538px;
+    }
+  
+  
+    #contact_home::before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background: url('../img/contact_us.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    height: 114%;
+    width: 138.3%;
+    z-index: -1;
+    opacity: 1;
+    overflow-x: hidden;
+    }
+  
+  
+    .contact_home::after {
+    background-color: #563d7c; content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    }
+  
+  
+    #contact_home h1{
+    text-align: left;
+    }
+  
+  
+    #contact_home h2{
+    color: #fff;
+    font-family: muli, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform:uppercase;
+    }

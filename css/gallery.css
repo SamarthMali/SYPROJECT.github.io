@@ -1,0 +1,44 @@
+    
+    .img_row {
+        display: flex;
+        -ms-flex-wrap: wrap; 
+        flex-wrap: wrap;
+        padding: 17px 48px;
+      
+      }
+  
+      .img_column {
+        -ms-flex: 25%; 
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 15px;
+      }
+      
+      .img_column img {
+        margin-top: 31px;
+        vertical-align: middle;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 19px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      
+
+  
+      @media screen and (max-width: 800px) {
+        .img_column {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+  
+      @media screen and (max-width: 600px) {
+        .img_column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+        }
+      }

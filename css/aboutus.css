@@ -1,0 +1,67 @@
+
+  
+#about_home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 538px;
+    }
+  
+  
+    #about_home::before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background: url('../img/about_us.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    height: 114%;
+    width: 138.3%;
+    z-index: -1;
+    opacity: 1;
+    overflow-x: hidden;
+    }
+  
+  
+    .about_home::after {
+    background-color: #563d7c; content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    }
+  
+  
+    #about_home h1{
+    text-align: left;
+    }
+  
+  
+    #about_home h2{
+    color: #fff;
+    font-family: muli, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform:uppercase;
+    }
+
+    .knowmore{
+        display: inline-block;
+        font-size: 14px;
+        padding: 17px 30px 16px;
+        color: #ffffff;
+        background: #f36100;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: "Muli", sans-serif;
+      }
